@@ -34,7 +34,7 @@ schema:
 switches:
   - name: ascii_mode
     states: [ 中, Ａ ]
-    reset: 0
+    reset: 1
   - name: ascii_punct # 中英标点
     states: [ ¥, $ ]
     reset: 0
@@ -135,23 +135,24 @@ translator:
   always_show_comments: true     # corrector.lua ：Rime 默认在 preedit 等于 comment 时取消显示 comment，这里强制一直显示，供 corrector.lua 做判断用。
   initial_quality: 1.2           # 拼音的权重应该比英文大
   preedit_format:                # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符
-    - xform/([bpmfdtnljqx])n/$1iao/
-    - xform/(\w)g/$1eng/
+    - xform/([bpmfdtnljqx])p/$1iao/
     - xform/(\w)q/$1iu/
     - xform/(\w)w/$1ei/
-    - xform/([dtnlgkhjqxyvuirzcs])r/$1uan/
-    - xform/(\w)t/$1ve/
-    - xform/(\w)y/$1un/
+    - xform/([dtnlgkhjqxyvuirzcs])f/$1uan/
+    - xform/(\w)k/$1ve/
     - xform/([dtnlgkhvuirzcs])o/$1uo/
-    - xform/(\w)p/$1ie/
+    - xform/(\w)h/$1ie/
+    - xform/(\w)d/$1ai/
+    - xform/(\w)n/$1an/
+    - xform/ean/en/
+    - xform/(\w)g/$1eng/
     - xform/([jqx])s/$1iong/
     - xform/(\w)s/$1ong/
-    - xform/(\w)d/$1ai/
-    - xform/(\w)f/$1en/
-    - xform/(\w)h/$1ang/
-    - xform/(\w)j/$1an/
-    - xform/([gkhvuirzcs])k/$1uai/
-    - xform/(\w)k/$1ing/
+    - xform/(\w)j/$1un/
+    - xform/(\w)y/$1ang/
+    - xform/(\w)t/$1en/
+    - xform/([gkhvuirzcs])r/$1uai/
+    - xform/([qtdjlpxbymn])r/$1ing/
     - xform/([jqxnl])l/$1iang/
     - xform/(\w)l/$1uang/
     - xform/(\w)z/$1ou/
@@ -167,6 +168,7 @@ translator:
     - "xform/(^|[ '])u/$1sh/"
     - xform/([jqxy])v/$1u/
     - xform/([nl])v/$1ü/
+
 
 
 # 次翻译器，英文
@@ -253,26 +255,26 @@ speller:
     - xform/^([aoe])(ng)?$/$1$1$2/
     - xform/iu$/Ⓠ/
     - xform/(.)ei$/$1Ⓦ/
-    - xform/uan$/Ⓡ/
-    - xform/[uv]e$/Ⓣ/
-    - xform/un$/Ⓨ/
+    - xform/uan$/Ⓕ/
+    - xform/[uv]e$/Ⓚ/
+    - xform/un$/Ⓙ/
     - xform/^sh/Ⓤ/
     - xform/^ch/Ⓘ/
     - xform/^zh/Ⓥ/
     - xform/uo$/Ⓞ/
-    - xform/ie$/Ⓟ/
+    - xform/ie$/Ⓗ/
     - xform/(.)i?ong$/$1Ⓢ/
-    - xform/ing$|uai$/Ⓚ/
+    - xform/ing$|uai$/Ⓡ/
     - xform/(.)ai$/$1Ⓓ/
-    - xform/(.)en$/$1Ⓕ/
+    - xform/(.)en$/$1Ⓣ/
     - xform/(.)eng$/$1Ⓖ/
     - xform/[iu]ang$/Ⓛ/
-    - xform/(.)ang$/$1Ⓗ/
+    - xform/(.)ang$/$1Ⓨ/
     - xform/ian$/Ⓜ/
-    - xform/(.)an$/$1Ⓙ/
+    - xform/(.)an$/$1Ⓝ/
     - xform/(.)ou$/$1Ⓩ/
     - xform/[iu]a$/Ⓧ/
-    - xform/iao$/Ⓝ/
+    - xform/iao$/Ⓟ/
     - xform/(.)ao$/$1Ⓒ/
     - xform/ui$/Ⓥ/
     - xform/in$/Ⓑ/
