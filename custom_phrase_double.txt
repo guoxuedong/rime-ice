@@ -106,86 +106,8 @@
 嘛	m	2
 呣	m	1
 
-
-我们	wm
-我们	wom
-你们	nm
-你们	nim
-人们	rm
-人们	rtm
-
-
-他的	td	3
-她的	td	2
-它的	td	1
-他的	tad	3
-她的	tad	2
-它的	tad	1
-他的	tde	3
-她的	tde	2
-它的	tde	1
-他们	tm	3
-她们	tm	2
-它们	tm	1
-他们	tam	3
-她们	tam	2
-它们	tam	1
-
-
-那儿	nr	2
-哪儿	nr	1
-那儿	nar	2
-哪儿	nar	1
-那个	nag	2
-哪个	nag	1
-那些	nx	2
-哪些	nx	1
-那些	nax	2
-哪些	nax	1
-那里	nl	2
-哪里	nl	1
-那里	nal	2
-哪里	nal	1
-那边	nb	2
-哪边	nb	1
-那边	nab	2
-哪边	nab	1
-那位	nw	2
-哪位	nw	1
-那位	naw	2
-哪位	naw	1
-
-
-一个	yg  2
-有个	yg  1
-又双叒叕	uuuu
-
-
-等等	dd
 等等等等	dddd
-刚刚	gg
-知道	vd
-不知道	bvd
-往往	ww
 哈哈哈	hhh
 看看	kk
-常常	ii
-想想	xx	2
-想象	xx	1
-隐约	yy
-因为	yw
-什么	um
-所以	sy
 
-
-go	go
-Golang	golang
-goto	goto
-domain	domain
 TODO	todo
-main	main
-Amazon	amazon
-NASA	nasa
-gone	gone
-code	code
-SOHO	soho

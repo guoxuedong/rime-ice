@@ -41,10 +41,10 @@ switches:
   - name: traditionalization
     states: [ 简, 繁 ]
   - name: emoji
-    states: [ 💀, 😄 ]
-    reset: 1
+    #states: [ 💀, 😄 ]
+    reset: 0
   - name: full_shape
-    states: [ 半角, 全角 ]
+    #states: [ 半角, 全角 ]
   - name: search_single_char  # search.lua 的功能开关，辅码查词时是否单字优先
     states: [正常, 单字]
     abbrev: [词, 单]
