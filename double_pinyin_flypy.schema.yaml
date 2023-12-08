@@ -36,16 +36,16 @@ switches:
     states: [ 中, Ａ ]
     reset: 1
   - name: ascii_punct # 中英标点
-    states: [ ¥, $ ]
+    #states: [ ¥, $ ]
     reset: 0
   - name: traditionalization
-    states: [ 简, 繁 ]
+    #states: [ 简, 繁 ]
     reset: 0
   - name: emoji
-    states: [ 💀, 😄 ]
-    reset: 1
+    #states: [ 💀, 😄 ]
+    reset: 0
   - name: full_shape
-    states: [ 半角, 全角 ]
+    #states: [ 半角, 全角 ]
     reset: 0
 
 
