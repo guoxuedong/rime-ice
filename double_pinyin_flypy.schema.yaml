@@ -34,8 +34,9 @@ schema:
 # abbrev: 默认的缩写取 states 的第一个字符，abbrev 可自定义一个字符
 switches:
   - name: ascii_mode
-    #states: [ 中, Ａ ]
-    reset: 1
+    # android 下 states 注释掉，否则在候选栏会显示 states
+    states: [ 中, Ａ ]
+    #reset: 1
   - name: ascii_punct # 中英标点
     states: [ ¥, $ ]
   - name: traditionalization
