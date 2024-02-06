@@ -264,10 +264,10 @@ preset_keyboards:
       - {click: 9}
       - {click: '/', key_text_size: 16, key_back_color: *color_gray_dark, width: *edge_key_width}
       # 第四行
-      - {click: "go_back", key_text_size: 13, key_back_color: *color_gray_dark, width: *edge_key_width}
-      - {click: "space_symbol", key_text_size: 25, key_text_offset_y: -10, key_back_color: *color_gray_dark}
+      - {click: "switch_punct", key_text_size: 13, key_back_color: *color_gray_dark, width: *edge_key_width}
+      - {click: "go_back", key_text_size: 13, key_back_color: *color_gray_dark}
       - {click: 0}
-      - {click: "=", key_text_size: 19, key_back_color: *color_gray_dark}
+      - {click: "space_symbol", key_text_size: 25, key_text_offset_y: -10, key_back_color: *color_gray_dark}
       - {click: "return", key_text_size: 13, key_back_color: *color_orange, width: *edge_key_width}
 
   symbols:
