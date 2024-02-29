@@ -262,7 +262,7 @@ preset_keyboards:
       - {click: 7}
       - {click: 8}
       - {click: 9}
-      - {click: '/', key_text_size: 16, key_back_color: *color_gray_dark, width: *edge_key_width}
+      - {click: '#', key_text_size: 16, key_back_color: *color_gray_dark, width: *edge_key_width}
       # 第四行
       - {click: "switch_punct", key_text_size: 13, key_back_color: *color_gray_dark, width: *edge_key_width}
       - {click: "go_back", key_text_size: 13, key_back_color: *color_gray_dark}
