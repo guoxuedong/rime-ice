@@ -14,6 +14,10 @@ patch:
       Shift_R: noop           # commit_code | commit_text | inline_ascii | clear | noop
       Control_R: commit_code  # commit_code | commit_text | inline_ascii | clear | noop
   key_binder:
+    # Lua 配置: 以词定字（上屏当前词句的第一个或最后一个字），和中括号翻页有冲突
+    select_first_character: "bracketleft"  # 左中括号 [
+    select_last_character: "bracketright"  # 右中括号 ]
+
     bindings:
       # 翻页 , .
       - { when: paging, accept: period, send: Page_Up }
