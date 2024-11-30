@@ -2,3 +2,4 @@ patch:
   #style/color_scheme_dark: google
   app_options/com.jetbrains.intellij.ce/ascii_mode: true
   app_options/com.jetbrains.intellij.ce/vim_mode: true
+  preset_color_schemes/purity_of_form_custom/candidate_list_layout: linear
