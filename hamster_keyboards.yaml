@@ -1600,7 +1600,7 @@ keyboards:
 
   - name: "Norman"
     isPrimary: true
-    buttonInsets: { left: 2, bottom: 3, top: 3, right: 2 }
+    buttonInsets: { left: 2, bottom: 2, top: 2, right: 2 }
     rows:
       - keys:
           - action: { character: { char: "q" } }
@@ -1704,7 +1704,7 @@ keyboards:
                 processByRIME: true
                 direction: up
         rowHeight:
-          portrait: 50
+          portrait: 52
           landscape: 40
       - keys:
           - action: { character: { char: "a" } }
@@ -1808,7 +1808,7 @@ keyboards:
                 processByRIME: true
                 direction: up
         rowHeight:
-          portrait: 50
+          portrait: 52
           landscape: 40
       - keys:
           - action: shift
@@ -1888,7 +1888,7 @@ keyboards:
           - action: backspace
             width: { percentage: 0.15 }
         rowHeight:
-          portrait: 50
+          portrait: 52
           landscape: 40
       - keys:
           - action: { keyboardType: numericNineGrid }
@@ -1898,8 +1898,8 @@ keyboards:
             label: "123"
           - action: { keyboardType: classifySymbolic }
             width:
-              portrait: { percentage: 0.1 }
-              landscape: { percentage: 0.1 }
+              portrait: { percentage: 0.13 }
+              landscape: { percentage: 0.13 }
             label: 符号
           - action: { character: { char: "," } }
             width:
@@ -1912,8 +1912,8 @@ keyboards:
                 direction: up
           - action: space
             width:
-              portrait: { percentage: 0.3 }
-              landscape: { percentage: 0.3 }
+              portrait: { percentage: 0.24 }
+              landscape: { percentage: 0.24 }
           - action: { character: { char: "." } }
             width:
               portrait: { percentage: 0.1 }
@@ -1925,8 +1925,8 @@ keyboards:
                 direction: up
           - action: { shortcutCommand: "#中英切换" }
             width:
-              portrait: { percentage: 0.1 }
-              landscape: { percentage: 0.1 }
+              portrait: { percentage: 0.13 }
+              landscape: { percentage: 0.13 }
             label: "中英"
             processByRIME: true
           - action: enter
@@ -1937,6 +1937,6 @@ keyboards:
                 processByRIME: true
                 direction: up
         rowHeight:
-          portrait: 50
+          portrait: 52
           landscape: 40
 
