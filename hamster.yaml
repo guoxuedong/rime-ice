@@ -1,4 +1,5 @@
 # 通用配置
+# 在iphone 的键盘配置中，允许完全访问才能记住输入记录
 general:
   #是否开启icloud同步
   enableAppleCloud: false
